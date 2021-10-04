@@ -1,0 +1,162 @@
+html,body{
+  height:100%;
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html { 
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url(img/backgroundMain.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-container2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#canvas1 {
+	width: 800px;
+	height: 500px;
+	border: 1px solid black;
+	background: url(img/backgroundStart.png);
+	border-radius: 10px;
+}
+
+.score {
+	width: 500px;
+	color: white;
+	text-align: left;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2em;
+	margin: none;
+
+}
+
+.levelUp {
+	color: #1bff00;
+}
+
+.volume {
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+.margin {
+	margin: 20px;
+}
+
+#volume {
+	color: red;
+}
+
+.options {
+	width: 300px;
+	margin: none;
+}
+
+.start-button{
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Press Start 2P', cursive;
+	width: 150px;
+	height: 50px;
+	background: #92CD41;	
+	border: outset #4AA52E;
+	cursor: pointer;
+}
+
+.start-button:hover {
+	background: #9edc48;	
+	border: outset #4AA52E;
+}
+
+.start-button-press{
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Press Start 2P', cursive;
+	width: 150px;
+	height: 50px;
+	background: #76c442;	
+	border: inset #4AA52E;
+}
+
+
+.reset-button{
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Press Start 2P', cursive;
+	width: 150px;
+	height: 50px;
+	background: #F7D51D;	
+	border: outset #E59400;
+	cursor: pointer;
+}
+
+.reset-button:hover {
+	background: #ffe03a;	
+	border: outset #E59400;
+}
+
+.reset-button-press{
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Press Start 2P', cursive;
+	width: 150px;
+	height: 50px;
+	background: #F2C409;	
+	border: inset #E59400;
+}
+
+.name {
+	color: gray;
+	font-size: 1.5em;
+	font-family: 'Press Start 2P', cursive;
+	width: 200px;
+	height: 50px;
+	background: white;	
+	border: inset gray;
+	margin-top: 0;
+
+}
+
+.namePosition {
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 65px;
+	width: 200px;
+	height: auto;
+}
+
+.nameWarning {
+	color: red;
+	font-size: 1em;
+	font-family: 'Press Start 2P', cursive;
+	word-break: break-word;
+	margin-bottom: 10px;
+	height: 50px;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+

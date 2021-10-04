@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<title>Candy Police</title>
+</head>
+<body>
+	
+
+	<div class="flex-container">
+			<div class="score">
+				<div class="margin">
+					<span>Score: </span>
+					<span class="scoreLive">0</span>
+				</div><div class="margin">
+					<span>Kills: </span>
+					<span class="killsLive">0</span>
+				</div><div class="margin level">
+					<span>Level: </span>
+					<span class="levelLive">1</span>
+				</div>
+			</div>
+			<div class="namePosition nameContainer">
+				<p class="nameWarning"></p>
+				<input type="text" name="name" placeholder="Name" class="name">
+			</div>			
+			<div class="options flex-container2">
+				<div class="margin">
+				  <label for="volume" class="volume">Volume:</label>
+				  <input type="range" id="volume" name="volume" min="0" max="100">
+				</div>				
+				<div class="buttons">
+					<div class="start-button flex-container margin">
+						<div>Start</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<canvas id="canvas1"></canvas>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
